@@ -27,12 +27,6 @@ document.querySelectorAll(".nav-link, .mobile-nav-link").forEach((link) => {
   });
 });
 
-// Form submission
-document.getElementById("contact-form").addEventListener("submit", (e) => {
-  e.preventDefault();
-  alert("¡Gracias por tu mensaje! Te contactaré pronto.");
-});
-
 // Scroll animations
 const observerOptions = {
   threshold: 0.1,
